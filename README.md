@@ -17,7 +17,7 @@ The term internet was born in 1973 when the University College of England and Ro
 
 5: Video streaming is considered the main use of the internet today with over 80% of all internet traffic being video related according to Cisco. In the early 2000's video was transferred using a television, VCR cassets and DVDs, so when YouTube was launched in 2005 which provided video on demand it was a huge success. Even till todays, its considered the 2nd biggest website in the world according to user traffic, losing only to google.com.
 
-### References
+#### References
 
 https://www.webfx.com/blog/web-design/the-history-of-the-internet-in-a-nutshell/
 
@@ -66,7 +66,7 @@ Without Routers, packets would not travel efficiently to their destination and m
 
 Domain and DNS: Websites and other services are hosted at IP addresses. With the increase in websites users would have to remember the numeric sequence for all their favorites sites. This ofcourse is impossible so DNS was made. DNS takes this address and translates it into a word or a phrase. This allows web browsers to travel to those websites using those words or phrases rather than just the numerical address. This name or phrase chosen to represent that numerical address is refered to as the Domain.
 
-### References
+#### References
 
 https://computer.howstuffworks.com/question525.htm
 
@@ -97,7 +97,7 @@ The old internet was mostly just text, but in todays modern age many programming
 
 Developer tools are added features on browsers that allow web developers to interact with webpages and web applications at a deeper level. It allows them to create, test and debug code/software.
 
-### References
+#### References
 
 https://en.wikipedia.org/wiki/Transmission_Control_Protocol
 
@@ -113,7 +113,7 @@ Data structures are one of the backbones of all programs/software. They are the 
 
 3) Arrays are data structures used to store or hold other things, this include other data types such as strings or intergers. They can be used as a base for more advanced data structures, to gather results from a loop or even just for collecting and storing a set of items. Arrays also order items that are stored within them using a zero based index, allowing for acurate data manipulation.
 
-### References
+#### References
 
 https://www.rubyguides.com/2019/04/ruby-data-structures/
 
@@ -134,7 +134,7 @@ Some of the features and differences of interpreters and compilers are:
 
 Ruby and Python are examples of a Interpreter language while C and C# are compiler languages.
 
-### References
+#### References
 
 https://www.programiz.com/article/difference-compiler-interpreter
 
@@ -191,7 +191,7 @@ Since everything in Ruby is considered an object, in some cases it can be extrem
 * Documentation
 In some cases it can be difficult to gather documentation for gems and other libraries. This is especially a concern when dealing with Ruby on Rails, as most of that framework makes heavy use of mixins.
 
-### References
+#### References
 
 https://www.quora.com/What-are-the-advantages-and-disadvantages-of-Ruby
 
@@ -228,7 +228,7 @@ Although simplistic, the above example illustrates a simple control flow.
 ## Q9) Explain type coercion
 Type coercion is changing an objects type into another type. For example, changing a string into an interger or vice versa. In Ruby this is achieved using the methods of "to_s" and "to_i" as well as the lesser known methods "to_str" and "to_int".
 
-### References
+#### References
 
 https://blog.appsignal.com/2018/09/25/explicitly-casting-vs-implicitly-coercing-types-in-ruby.html
 
