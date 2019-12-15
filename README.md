@@ -233,3 +233,165 @@ Type coercion is changing an objects type into another type. For example, changi
 https://blog.appsignal.com/2018/09/25/explicitly-casting-vs-implicitly-coercing-types-in-ruby.html
 
 ## Q10) Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type.
+
+Because ruby is a pure Object Oriented Programming language all it's data types are based on classes. The following are the basic data types recognised in Ruby.
+
+1) Numbers (Integers and Floats)
+
+Whole numbers are refered to as Integers. Numbers that have decimal points use the Float data type.
+
+```
+distance = 0.1
+time = 9.9 / 3600
+speed = distance / time
+
+puts "You're average speed for the 100m sprint was {#speed} km/h"
+```
+
+2) Boolean
+
+Boolean is a simple data type whose purpose is to display whether something is TRUE or FALSE.
+
+```
+1 == 1 #=> true
+1 == 2 #=> false
+```
+
+3) Strings
+
+Strings are just groups of letters or words enclosed in double quotation marks.
+
+```
+string = "Hi " + "There " + "Reader"
+puts string
+=> Hi There Reader
+```
+
+4) Symbols
+
+Symbols are used to represent other objects. It's often refered to as a lightweight string as it will always stay the same size in memory. Once a symbol is created it cannot be modified. It's preceded by a colon (:).
+
+```
+"hello".class
+=> String
+
+:hello.class
+=> Symbol
+```
+
+5) Arrays
+
+Arrays store information in an ordered list refered to as an index. It can contain all other data types. Data in an array is enclosed in square brackets ([]) and seperated by commas (,). 
+
+```
+num = [1, 2, 3, 4, 5]
+puts "There are {#num.size} items in this array"
+```
+
+6) Hashes
+
+Hashes are similar to arrays in that they are a collection of other objects however hashes create key-value pairs. Value to a key is assigned by => sign. A key pair is separated with a comma(,) between them and all the pairs are enclosed within curly braces({}).
+
+```
+domains = { :au => "Australia", :gr => "Greece",
+            :us => "United States", :jp => "Japan" }
+puts domains.keys
+puts domains.values
+```
+
+#### References
+
+http://zetcode.com/lang/rubytutorial/datatypes/
+
+https://www.geeksforgeeks.org/ruby-data-types/
+
+https://www.botreetechnologies.com/blog/ruby-basic-data-types
+
+
+## Q11) Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
+  - Identify the classes you would use to solve the problem
+  - Write a short explanation of why you would use the classes you have identified
+
+I would create one class called Menu_Items_Ordered
+
+I would assign four attributes to this class including item_no, price, table_no and payment_method.
+
+Upon thinking about this problem one class should suffice as it contains all the components required. The menu item the customers wants, the price of the item, their table number and whether or not they have payed. All of these componenets are required to make the transaction and cover all the information that a staff member would have provided. Methods can be programmed with the above class to create and deliver the meals they ordered. Having one class doesn't over complicate the situation and should allow for easy app development.
+
+## Q12) Identify and explain the error in the following code that is preventing correct execution of the program.
+```
+celsius = gets
+fahrenheit = (celsius * 9 / 5) + 32
+print "The result is: "
+print fahrenheit
+puts "."
+```
+There are three error that I can see in this code. 
+1. No chomp method after the gets command, which doesnt remove the new line character.
+2. No conversion of string into a number data type. We primarily want a float for this program however it will execute with an interger as well.
+3. Our result will be incorrect in some instances unless we convert celsius variable into a float.
+
+Although the above examples all point out errors, it is the 2nd one that is preventing correct execution of the program. When we use the gets method the user input will always be considered a string unless converted into another data type. Once the program reaches the forward slash in the 2nd line, Ruby has no idea how to proceed and will return the NoMethodError error, as it cannot divide a string.
+
+## Q13) The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+  i = i + 1 end
+puts i
+arr[i] = arr[i + 1]
+arr[i + 1] = arr[i]
+```
+
+#### My Code
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+  i = i + 1 end
+puts i
+
+arr[i], arr[i + 1] = arr[i + 1], arr[i]
+```
+
+## Q14) Demonstrate your algorithmic thinking through completing the following two tasks, in order:
+  i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
+ii. Write pseudocode for the process outlined in your flowchart
+
+![Flowchart](./docs/q14flowchart.png)
+
+```
+- create a empty array named is_prime
+- create an interger variable i
+- set i = 2
+- check if i is divisible by 2,3,5 or 7 so that it is a whole number.
+- If yes, number is not prime, increase i by 1 and repeat.
+- If no, number is prime, add it to array, increase i by 1 and repeat
+- When i > 100 display the array is_prime
+- Terminate program
+```
+
+## Q15 Write pseudocode OR Ruby code for the following problem:
+
+You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
+
+```
+def forecast(temperature,raining)
+  
+  if temperature < 15 && raining == true
+    puts "It's wet and cold"
+  elsif 
+    temperature < 15 && raining == false 
+    puts "It's not raining but cold"
+  elsif 
+    temperature >= 15 && raining == false 
+    puts "It's warm but not raining"
+  else 
+    puts "It’s warm and raining"
+  end 
+end
+
+forecast(temperature,raining)
+```
