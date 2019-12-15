@@ -264,9 +264,9 @@ https://www.theguardian.com/australia-news/2019/oct/01/systems-shut-down-in-vict
 
 ### Q8)Explain control flow, using an example from the Ruby programming language
 
-When we program we often have an idea of how we want the program to run. Often this involves making our program make a decision based on a result. This decision is often called a control flow. The programmer specifies the order in which it wants the computer to behave.
+When we program we often have an idea of how we want the program to run. Often this involves making our program make a decision based on a result. This decision is often called a control flow. The programmer specifies the order in which it wants the computer to behave, based on the inputs it receives.
 
-Control flow is represented in code via the use of if loops, while loops, else loops and elsif loops. 
+Control flow is represented in code via many techniques, such as loops and decision making statements. We will focus on an if loop for this example. 
 
 ```
 puts "Please enter your password"
@@ -283,7 +283,13 @@ In the above example, the user is prompted to enter their password. If they ente
 Although simplistic, the above example illustrates a simple control flow.
 
 ### Q9) Explain type coercion
-Type coercion is changing an objects type into another type. For example, changing a string into an interger or vice versa. In Ruby this is achieved using the methods of "to_s" and "to_i" as well as the lesser known methods "to_str" and "to_int".
+Type coercion is changing an objects type into another type. For example, changing a string into an interger or vice versa. In Ruby this is achieved using the methods of "to_s" and "to_i".
+
+Each programming language has it's own rules for type coercion, but the most important aspect is whether it is implicit or explicit. 
+
+Implicit coercion happens automatically and is often conducted by the compiler or interpreter.
+
+Explicit coercion is specifically defined within the program. It is done by the user and not the compiler or interpreter. 
 
 #### References
 
