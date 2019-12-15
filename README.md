@@ -72,7 +72,7 @@ https://computer.howstuffworks.com/question525.htm
 
 https://www.cs.uct.ac.za/mit_notes/web_programming/html/ch07s05.html
 
-<h3> Define the features of the following technologies that are essential in terms of the development of the internet:
+<h3> Q3) Define the features of the following technologies that are essential in terms of the development of the internet:
   - TCP
   - HTTP and HTTPS
   - web browsers (requests, rendering and developer tools)
@@ -203,7 +203,62 @@ https://medium.com/@mindfiresolutions.usa/advantages-and-disadvantages-of-python
 
 https://hackernoon.com/pros-cons-you-must-know-before-using-ruby-on-rails-for-your-startup-234ecd631aaf
 
-## Q7) 
+<h3> Q7) Identify TWO ethical issues from the areas below and discuss the extent to which an IT professional is ethically responsible in terms of the issue.
+
+List of topics containing ethical issues:
+  - access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
+  - intellectual property, copyright, and acknowledgement.
+  - criminal acts such as theft, fraud, trafficking and distribution of prohibited substances, terrorism
+  - GPS tracking data and other types of metadata, MAC addresses, hardware fingerprints
+  - freedom of thought, conscience, speech and the media
+  - aggressive sales and marketing practices designed to mislead and deceive consumers
+  - trading of shares on the stock exchange OR crypto-currencies
+
+For each ethical issue identify a source of legal information relating to the ethical issue and discuss whether the law is helpful in assisting a developer to act in an ethical way.
+
+Conduct research into a case study of ONE of the ethical issues you have chosen discuss how an ethical IT professional should respond to the case study and how they might mitigate or prevent ethical breaches. </h3>
+
+#### Freedom of thought, conscience, speech and media.
+
+One of the big rises of the 21st century due to the internet is the rise of social media platforms. Facebook, Twitter, Snapchat, Instagram and Youtube are some of the biggest websites/platforms in the world. They connect us in ways unimaginable previously and allow users to express their thoughts to hundreds if not thousands of other users. Not everything is positive however, as just as people can get along and share theirs views they can also as easily disagree with others. In some instances these situations can escalate quite rapidly, resulting in insults or even death threats for a simple difference of opinion.
+
+In most countries, Australia included, individuals have a right to their own thought, conscience and speech. This means they should be able to discuss and express their personel beliefs without the fear of persecution. This not only applies to them in person, but also how they express themselves over social media. The internet however is not a country, and so it can be dificult to enforce this notion, especially with the number of users and traffic that these sites generate daily. As an IT professional at a social media platform, there is bound to be occasions where they come across a difference of opinion or something that aggravates them. The IT professional in this situation has powers that others do not possess, giving them the ability to delete and censor that opinion. Not all individual expressions are legal ofcourse, insighting violence onto someone for example is not protected by these rights. Removing an opinion however simply for disagreeing with it or not wanting other to see it is unethical and should be avoided.
+
+In Australia, there is some general information you can find on government websites regarding individual rights and the laws surrounding them, which should help IT professionals/developers to act in ethical ways.
+
+https://www.ag.gov.au/RightsAndProtections/HumanRights/Human-rights-scrutiny/PublicSectorGuidanceSheets/Pages/Righttofreedomofthoughtconscienceandreligionorbelief.aspx#5can
+
+#### Access to user's personal information
+
+With the rise of the internet, especially cloud technologies, alot of services that used to use physical storage for keeping personal information are now migrating to the internet. In Australia, MyHealthRecord is currently an issue being discussed. Rather than have patient information stored across multiple facilities or even across states, the plan is to create a huge online database that holds all patient information instead. This is ofcourse for ease of use and the ability to quickly gather patient information quickly amongst other things but ethical issues arise when questions such as who can access this database are asked. It's pressumed only individuals with authority or clearance will be able to access this database but who is to say they can't access it any time they wish. As an IT professional huge projects such as these will likely span across multiple networks, and it will be their responsibility to maintain security. They will also have access to sensitive and personal data, as well as delegate who has access to this data. It requires a deep understanding of their systems, any holes in security is a massive risk to user privacy. 
+
+Lastly, if a system is breached and it's believed user information has been taken, the Ethical thing to do is announce this. Some companies 'hide it under the rug' so as to not develop bad reputation but this is obviously unethical. As IT professionals they have an ethical duty to the personal data they are entrusted with.
+
+Over the years alot of guidelines and laws have been made that assist web developers/ IT proffesionals in these situations. 
+
+https://www.oaic.gov.au/privacy/the-privacy-act/
+
+https://www.oaic.gov.au/privacy/guidance-and-advice/guide-to-securing-personal-information/
+
+https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information
+
+
+#### Case Study Gippsland
+
+About three months ago several Hospitals and medical services were apart of a cyber attack in Gippsland Victoria. Although patient medical records are considered to be safe, the attackers managed to install ransomware on several systems, forcing multiple services to be shutdown. This happened just months after an audit from the Victorian Government revealed that patient data stored in the Victorian public health system was highly vulnerable to cyber attacks.
+
+Also in America it is believed that the rise of cyber attacks and data breaches against US hospitals has been linked to an uptick in heart attack deaths. This is to show the importance of securing these systems. Most Australian medical facilities are transitioning to entirely electronic health records and this is believed to leave them more exposed to hackers. Alot of medical systems used outdated operating systems as well that should have bene upgraded years ago.
+
+As an IT professional, there are many best practises and guidelines to securing data and systems. An ethical professional should do there best to follow these guidelines to minimise any chance of a cyber attack. They should also be responsible for keeping systems up to date, as having operating systems from almost a decade ago runnings on critical machines is unacceptable.
+
+#### References
+
+https://www.businessinsider.com.au/cyber-attacks-hospitals-rise-in-heart-attack-deaths-study-2019-11?r=US&IR=T
+
+https://www.healthcareit.com.au/article/cyber-attacks-hit-hospitals-health-services-victoria
+
+https://www.theguardian.com/australia-news/2019/oct/01/systems-shut-down-in-victorian-hospitals-after-suspected-cyber-attack
+
 
 ### Q8)Explain control flow, using an example from the Ruby programming language
 
