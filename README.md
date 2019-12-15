@@ -33,6 +33,7 @@ https://history-computer.com/Internet/Maturing/TCPIP.html
 
 
 <h3> Q2) Define the features of the following technologies that are essential in terms of the development of the internet:
+
   - packets
   - IP addresses (IPv4 and IPv6)
   - routers and routing
@@ -73,6 +74,7 @@ https://computer.howstuffworks.com/question525.htm
 https://www.cs.uct.ac.za/mit_notes/web_programming/html/ch07s05.html
 
 <h3> Q3) Define the features of the following technologies that are essential in terms of the development of the internet:
+
   - TCP
   - HTTP and HTTPS
   - web browsers (requests, rendering and developer tools)
@@ -363,7 +365,8 @@ https://www.geeksforgeeks.org/ruby-data-types/
 https://www.botreetechnologies.com/blog/ruby-basic-data-types
 
 
-<h3> Q11) Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
+<h3> Q11) Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”
+
   - Identify the classes you would use to solve the problem
   - Write a short explanation of why you would use the classes you have identified </h3>
 
@@ -412,8 +415,10 @@ arr[i], arr[i + 1] = arr[i + 1], arr[i]
 ```
 
 <h3> Q14) Demonstrate your algorithmic thinking through completing the following two tasks, in order:
-  i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
-ii. Write pseudocode for the process outlined in your flowchart </h3>
+
+  i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations 
+
+  ii. Write pseudocode for the process outlined in your flowchart </h3>
 
 ![Flowchart](./docs/q14flowchart.png)
 
