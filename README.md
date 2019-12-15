@@ -395,3 +395,57 @@ end
 
 forecast(temperature,raining)
 ```
+
+## Q16) An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
+
+  - eggs (1)
+  - peanuts (2)
+  - shellfish (4)
+  - strawberries (8)
+  - tomatoes (16)
+  - chocolate (32)
+  - pollen (64)
+  - cats (128)
+So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
+
+Write a program that, given a person’s score can tell them:
+  a. whether or not they’re allergic to a given item
+  b. the full list of allergies.
+
+
+#### My code
+
+```
+def allergy_score(score)
+    allergens = {
+        "cats" => 128,
+        "pollen" => 64,
+        "chocolate" => 32,
+        "tomatoes" => 16,
+        "strawbrries" => 8,
+        "shellfish" => 4,
+        "peanuts" => 2,
+        "eggs" => 1
+    }
+
+    is_allergic = []
+
+    allergens.each do |allergy, value|
+        if score % value != score
+            is_allergic.push(allergy, value)
+            score = score % value
+        end
+    end
+
+    puts is_allergic
+end
+
+puts "Please enter your Allergy Score as an interger. 
+Alternatively, enter 255 to view the full list of allergies."
+
+user_input = gets.chomp.to_i
+
+system("clear")
+
+allergy_score(user_input)
+```
