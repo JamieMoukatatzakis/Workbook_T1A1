@@ -1,6 +1,6 @@
 # Jamie Moukatatzakis Workbook Assessment T1A1
 
-## Q1) Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
+### Q1) Research the development of the internet from 1980 to today. You must describe at least FIVE key events in the development of the internet. You can refer to events, people of significance, or technologies and how they have changed over time.
 ---
 
 1: The initial concept of todays World Wide Web is often credited to Leonard Kleinrock, who in 1961 wrote a paper entilted "Information Flow in Large Communication Nets." In this paper he wrote about ARPANET, the predecessor of the internet.
@@ -32,13 +32,13 @@ https://history-computer.com/Internet/Maturing/TCPIP.html
 
 
 
-## Q2) Define the features of the following technologies that are essential in terms of the development of the internet:
+<h3> Q2) Define the features of the following technologies that are essential in terms of the development of the internet:
   - packets
   - IP addresses (IPv4 and IPv6)
   - routers and routing
   - domains and DNS
 
-Explain how each technology has contributed to the development of the internet. 
+Explain how each technology has contributed to the development of the internet. </h3>
 
 ---
 
@@ -72,12 +72,12 @@ https://computer.howstuffworks.com/question525.htm
 
 https://www.cs.uct.ac.za/mit_notes/web_programming/html/ch07s05.html
 
-## Define the features of the following technologies that are essential in terms of the development of the internet:
+<h3> Define the features of the following technologies that are essential in terms of the development of the internet:
   - TCP
   - HTTP and HTTPS
   - web browsers (requests, rendering and developer tools)
 
-Explain how each technology has contributed to the development of client and server communication over the internet
+Explain how each technology has contributed to the development of client and server communication over the internet</h3>
 
 ---
 
@@ -103,7 +103,7 @@ https://en.wikipedia.org/wiki/Transmission_Control_Protocol
 
 https://developer.mozilla.org/en-US/docs/Glossary/Developer_Tools
 
-## Q4) Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
+### Q4) Identify THREE data structures used in the Ruby programming language and explain the reasons for using each.
 
 Data structures are one of the backbones of all programs/software. They are the way we store and retrieve data.
 
@@ -122,7 +122,7 @@ https://techterms.com/definition/string
 http://ruby-for-beginners.rubymonstas.org/built_in_classes/arrays.html
 
 
-## Q5) Describe the features of interpreters and compilers and how they are different.
+### Q5) Describe the features of interpreters and compilers and how they are different.
 
 In programming, languages are often referred to by a programing level. A high level language is one that is mostly human readable as it consists of words and phrases used in the English language. A computer or machine however cannot understand this, as it runs on binary, meaning one's and zeroes. This is often called machine code. Therefore we must use interpreters or compilers to translate our code into machine code so the computer / machine can understand it.
 
@@ -139,7 +139,7 @@ Ruby and Python are examples of a Interpreter language while C and C# are compil
 https://www.programiz.com/article/difference-compiler-interpreter
 
 
-## Q6) Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
+### Q6) Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
 Python: Python is a high level all purpose programming language. It focuses on readability and allowing a programmer to code using fewer steps than other languages. It was developed in 1991 by Guido Van Rossum as he hated the shortcoming of the programming language ABC at the time. He incorporated all the features he thought was good about ABC and then added features he desired.
 
@@ -205,7 +205,7 @@ https://hackernoon.com/pros-cons-you-must-know-before-using-ruby-on-rails-for-yo
 
 ## Q7) 
 
-## Q8)Explain control flow, using an example from the Ruby programming language
+### Q8)Explain control flow, using an example from the Ruby programming language
 
 When we program we often have an idea of how we want the program to run. Often this involves making our program make a decision based on a result. This decision is often called a control flow. The programmer specifies the order in which it wants the computer to behave.
 
@@ -225,14 +225,14 @@ In the above example, the user is prompted to enter their password. If they ente
 
 Although simplistic, the above example illustrates a simple control flow.
 
-## Q9) Explain type coercion
+### Q9) Explain type coercion
 Type coercion is changing an objects type into another type. For example, changing a string into an interger or vice versa. In Ruby this is achieved using the methods of "to_s" and "to_i" as well as the lesser known methods "to_str" and "to_int".
 
 #### References
 
 https://blog.appsignal.com/2018/09/25/explicitly-casting-vs-implicitly-coercing-types-in-ruby.html
 
-## Q10) Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type.
+### Q10) Describe the data types recognised by the Ruby programming language. In your description you should give example code which uses each data type, and include the name of the Ruby classes which represent each data type.
 
 Because ruby is a pure Object Oriented Programming language all it's data types are based on classes. The following are the basic data types recognised in Ruby.
 
@@ -308,9 +308,9 @@ https://www.geeksforgeeks.org/ruby-data-types/
 https://www.botreetechnologies.com/blog/ruby-basic-data-types
 
 
-## Q11) Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
+<h3> Q11) Here’s the problem: “There is a restaurant serving a variety of food. The customers want to be able to buy food of their choice. All the staff just quit, how can you build an app to replace them?”>
   - Identify the classes you would use to solve the problem
-  - Write a short explanation of why you would use the classes you have identified
+  - Write a short explanation of why you would use the classes you have identified </h3>
 
 I would create one class called Menu_Items_Ordered
 
@@ -318,7 +318,7 @@ I would assign four attributes to this class including item_no, price, table_no 
 
 Upon thinking about this problem one class should suffice as it contains all the components required. The menu item the customers wants, the price of the item, their table number and whether or not they have payed. All of these componenets are required to make the transaction and cover all the information that a staff member would have provided. Methods can be programmed with the above class to create and deliver the meals they ordered. Having one class doesn't over complicate the situation and should allow for easy app development.
 
-## Q12) Identify and explain the error in the following code that is preventing correct execution of the program.
+### Q12) Identify and explain the error in the following code that is preventing correct execution of the program.
 ```
 celsius = gets
 fahrenheit = (celsius * 9 / 5) + 32
@@ -333,7 +333,7 @@ There are three error that I can see in this code.
 
 Although the above examples all point out errors, it is the 2nd one that is preventing correct execution of the program. When we use the gets method the user input will always be considered a string unless converted into another data type. Once the program reaches the forward slash in the 2nd line, Ruby has no idea how to proceed and will return the NoMethodError error, as it cannot divide a string.
 
-## Q13) The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+### Q13) The following code looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
 
 ```
 arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
@@ -356,9 +356,9 @@ puts i
 arr[i], arr[i + 1] = arr[i + 1], arr[i]
 ```
 
-## Q14) Demonstrate your algorithmic thinking through completing the following two tasks, in order:
+<h3> Q14) Demonstrate your algorithmic thinking through completing the following two tasks, in order:
   i. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations  
-ii. Write pseudocode for the process outlined in your flowchart
+ii. Write pseudocode for the process outlined in your flowchart </h3>
 
 ![Flowchart](./docs/q14flowchart.png)
 
@@ -373,9 +373,9 @@ ii. Write pseudocode for the process outlined in your flowchart
 - Terminate program
 ```
 
-## Q15 Write pseudocode OR Ruby code for the following problem:
+<h3> Q15 Write pseudocode OR Ruby code for the following problem:
 
-You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.
+You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”. </h3>
 
 ```
 def forecast(temperature,raining)
@@ -396,7 +396,7 @@ end
 forecast(temperature,raining)
 ```
 
-## Q16) An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
+<h3> Q16) An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
 
   - eggs (1)
   - peanuts (2)
@@ -410,7 +410,7 @@ So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
 Write a program that, given a person’s score can tell them:
   a. whether or not they’re allergic to a given item
-  b. the full list of allergies.
+  b. the full list of allergies.</h3>
 
 
 #### My code
